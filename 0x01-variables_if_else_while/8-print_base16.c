@@ -2,11 +2,11 @@
 
 /**
  *
- *  * main - Prints the alphabet at reverse
+ * main - Prints the alphabet at reverse
  *
- *   * Return: Always (Success)
+ * Return: Always (Success)
  *
- *    */
+ */
 
 int main(void)
 
@@ -15,20 +15,12 @@ int main(void)
 	
 	for (c = '0'; c <= '9'; c++)
 	{
-
-								putchar(c);
-
-									}
-
-				for (c = 'a'; c <= 'f'; c++)
-
-						{
-
-									putchar(c);
-
-										}
-
-					putchar('\n');
-
-						return (0);
+		putchar(c);
+	}
+		for (c = 'a'; c <= 'f'; c++)
+		{
+			putchar(c);
+		}
+		putchar ('\n');
+		return (0);
 }
