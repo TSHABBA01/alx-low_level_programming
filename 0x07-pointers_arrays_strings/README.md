@@ -1,0 +1,1 @@
+arrays stings and pointers
